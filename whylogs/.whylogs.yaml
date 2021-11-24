@@ -1,0 +1,7 @@
+project: example-project
+pipeline: example-pipeline
+verbose: false
+writers:
+- data_collection_consent: true
+  formats: ['protobuf']
+  type: whylabs
